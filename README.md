@@ -2,6 +2,8 @@
 
 This is a React application for displaying the last 10 pictures of cats and dogs received from the exactly.ai server and recognized using the pre-trained ML model. The application updates pictures in real time as they are received.
 
+!["example"](front.jpg)
+
 ## Installation
 
 ### `yarn install`

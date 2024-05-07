@@ -4,7 +4,9 @@ This is a React application for displaying the last 10 pictures of cats and dogs
 
 ## Installation
 
-In the project directory, you can run:
+### `yarn install`
+
+The yarn.lock file specifies the exact versions of dependencies your project needs. To install them based on the lock file, navigate to your project's root directory in your terminal and run:
 
 ### `yarn start`
 

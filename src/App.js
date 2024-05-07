@@ -45,13 +45,17 @@ const App = () => {
   return (
     <div style={{ padding: 20 }}>
       <Row gutter={[16, 16]}>
-        <Col span={12}>
+        <Col span={8}>
           <h2>Dogs</h2>
           {renderImages('dog')}
         </Col>
-        <Col span={12}>
+        <Col span={8}>
           <h2>Cats</h2>
           {renderImages('cat')}
+        </Col>
+        <Col span={8}>
+          <h2>Not Recognized</h2>
+          {renderImages('not_recognized')}
         </Col>
       </Row>
     </div>
